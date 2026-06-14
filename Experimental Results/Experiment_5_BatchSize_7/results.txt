@@ -1,0 +1,14 @@
+Experiment: Reduced Batch Size (8 → 7)
+
+Training Accuracy: 83.2%
+Validation Accuracy: 74.19%
+
+Training Loss: 0.4078
+Validation Loss: 0.8697
+
+Observation:
+Since reducing the number of epochs gave a better balance between validation accuracy, validation loss and overfitting, I reduced the batch size from 8 to 7. I expected the additional randomness during training to help the model generalize better.
+
+Although this experiment did not achieve the highest validation accuracy, it showed less overfitting, a more stable validation loss and still maintained good validation accuracy.
+
+For my dataset, this experiment gave the best overall balance between validation accuracy, validation loss and generalization. This was my best performing experiment overall.

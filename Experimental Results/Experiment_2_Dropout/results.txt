@@ -1,0 +1,13 @@
+Experiment: Increased Dropout (0.5 → 0.65)
+
+Training Accuracy: 88%
+Validation Accuracy: 61.29%
+
+Training Loss: 0.3441
+Validation Loss: 1.6776
+
+Observation:
+I increased the dropout value from 0.5 to 0.65 expecting it to reduce overfitting and improve validation performance.
+
+However, the validation accuracy dropped from the baseline model and the validation loss remained high. This showed that increasing dropout too much caused the model to lose important information during training.
+

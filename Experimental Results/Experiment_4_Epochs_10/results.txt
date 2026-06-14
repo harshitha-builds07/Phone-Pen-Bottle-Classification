@@ -1,0 +1,12 @@
+Experiment: Reduced Epochs (15 → 10)
+
+Training Accuracy: 73.6%
+Validation Accuracy: 64.52%
+
+Training Loss: 0.6500
+Validation Loss: 0.9812
+
+Observation:
+I reduced the number of epochs from 15 to 10 because I felt the model was looking at the training dataset too much and becoming overfitted.
+
+The validation loss became much more stable and the gap between training and validation accuracy also reduced. This showed that reducing the number of epochs helped reduce overfitting.

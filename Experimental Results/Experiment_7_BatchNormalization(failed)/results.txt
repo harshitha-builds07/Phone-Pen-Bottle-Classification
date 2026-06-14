@@ -1,0 +1,15 @@
+Experiment: Batch Normalization
+
+Training Accuracy: 89.6%
+Validation Accuracy: 22.58%
+
+Training Loss: 1.3066
+Validation Loss: 36.6181
+
+Observation:
+This was the worst-performing experiment. Validation accuracy dropped close to random guessing and validation loss increased significantly.
+
+Status: Failed / Unstable Experiment
+
+Possible Reason:
+Batch Normalization may not have been suitable for the small dataset and chosen training setup.

@@ -1,0 +1,12 @@
+Experiment: L2 Regularization
+
+Training Accuracy: 91.2%
+Validation Accuracy: 61.29%
+
+Training Loss: 0.3251
+Validation Loss: 2.7599
+
+Observation:
+Since increasing dropout did not work as expected , I added L2 regularization hoping it would reduce overfitting and improve the model's performance on unseen data.
+
+However, the validation accuracy was lower than the baseline model and the validation loss increased significantly. This showed that L2 regularization was not effective for my dataset

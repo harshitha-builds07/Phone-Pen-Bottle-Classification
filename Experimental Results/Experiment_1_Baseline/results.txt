@@ -1,0 +1,10 @@
+Experiment: Baseline CNN
+
+Training Accuracy: 96.8%
+Validation Accuracy: 77.42%
+
+Training Loss: 0.1011
+Validation Loss: 1.9830
+
+Observation:
+The model achieved the highest validation accuracy but showed signs of overfitting. Validation loss kept increasing while training loss decreased steadily.

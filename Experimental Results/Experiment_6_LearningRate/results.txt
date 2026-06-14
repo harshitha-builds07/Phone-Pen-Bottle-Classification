@@ -1,0 +1,14 @@
+Experiment: Reduced Learning Rate (0.001 → 0.0005)
+
+Training Accuracy: 90%
+Validation Accuracy: 70.97%
+
+Training Loss: 0.3224
+Validation Loss: 1.3465
+
+Observation:
+Since the previous experiment gave a good balance between validation accuracy, validation loss and overfitting, I reduced the learning rate from 0.001 to 0.0005 hoping that the model would learn more carefully and improve validation accuracy.
+
+However, the validation accuracy decreased and the overall performance did not improve compared to the previous experiment.
+
+This experiment showed me that reducing the learning rate does not always lead to better results. For my dataset, the original learning rate of 0.001 worked better.
