@@ -78,7 +78,9 @@ but it turned out to be the worst-performing experiment with a large increase in
 ## Insights / Questions I Discovered:
 1.I learned that improving a model is not as simple as adding more techniques. A change that helps one model may not help another
 And also educing overfitting and improving validation accuracy are not always the same thing.
+
 2.I was surprised to see how much impact a small change like batch size could have on the model's performance.
+
 3.These experiments showed me the importance of testing ideas instead of assuming they will work.
 
 One question I still have is why Batch Normalization performed so poorly on my dataset even though it is commonly used in CNN models???
